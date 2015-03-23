@@ -1,6 +1,6 @@
 {
     "name": "torrent-hunter/api-bundle",
-    "license": "proprietary",
+    "license": "MIT",
     "type": "project",
     "description": "REST API of Torrent-Hunter",
     "authors":[
@@ -14,6 +14,7 @@
     "autoload": {
         "psr-0": { "ApiBundle\\": "src/", "SymfonyStandard": "app/" }
     },
+    "minimum-stability": "dev",
     "require": {
         "php": ">=5.3.3",
         "symfony/symfony": "2.6.*",
