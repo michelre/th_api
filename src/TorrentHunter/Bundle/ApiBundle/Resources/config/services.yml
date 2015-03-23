@@ -1,0 +1,4 @@
+services:
+#    torrent_hunter_api.example:
+#        class: TorrentHunter\Bundle\ApiBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]

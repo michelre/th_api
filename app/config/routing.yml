@@ -1,0 +1,7 @@
+torrent_hunter_api:
+    resource: "@TorrentHunterApiBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
