@@ -1,4 +1,4 @@
 services:
-#    torrent_hunter_api.example:
-#        class: TorrentHunter\Bundle\ApiBundle\Example
-#        arguments: [@service_id, "plain_value", %parameter%]
+    torrenthunter.api_service:
+        class: TorrentHunter\Bundle\ApiBundle\Controller\ApiController
+        arguments: ["@torrenthunter.solr_service", "@torrenthunter.crawler_service"]

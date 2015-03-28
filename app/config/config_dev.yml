@@ -23,7 +23,7 @@ monolog:
             verbosity_levels:
                 VERBOSITY_VERBOSE: INFO
                 VERBOSITY_VERY_VERBOSE: DEBUG
-            channels: ["!doctrine"]
+#            channels: ["!doctrine"]
         console_very_verbose:
             type:   console
             bubble: false
@@ -31,7 +31,7 @@ monolog:
                 VERBOSITY_VERBOSE: NOTICE
                 VERBOSITY_VERY_VERBOSE: NOTICE
                 VERBOSITY_DEBUG: DEBUG
-            channels: ["doctrine"]
+#            channels: ["doctrine"]
         # uncomment to get logging in your browser
         # you may have to allow bigger header sizes in your Web server configuration
         #firephp:
@@ -46,3 +46,12 @@ assetic:
 
 #swiftmailer:
 #    delivery_address: me@example.com
+
+nelmio_solarium:
+    endpoints:
+        default:
+            host: michelre:ddeeffg38c@92.222.40.151
+            port: 8983
+            path: /solr
+            core: collection1
+            timeout: 5
