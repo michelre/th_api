@@ -81,3 +81,12 @@ doctrine_mongodb:
   document_managers:
     default:
         auto_mapping: true
+
+nelmio_solarium:
+    endpoints:
+        default:
+            host: michelre:ddeeffg38c@localhost
+            port: 8983
+            path: /solr
+            core: collection1
+            timeout: 5
