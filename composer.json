@@ -28,8 +28,8 @@
         "sensio/distribution-bundle": "~3.0,>=3.0.12",
         "sensio/framework-extra-bundle": "~3.0,>=3.0.2",
         "incenteev/composer-parameter-handler": "~2.0",
-        "torrent-hunter/crawler-bundle" : "1.0.0",
-        "torrent-hunter/solr-bundle": "1.0.0",
+        "torrent-hunter/crawler-bundle" : "1.0.1",
+        "torrent-hunter/solr-bundle": "1.0.3",
         "jms/serializer-bundle": "0.13.*@dev"
     },
     "require-dev": {
